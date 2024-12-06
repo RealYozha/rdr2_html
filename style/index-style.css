@@ -1,0 +1,169 @@
+/*! Main stylesheet for ./../index.html !*/
+/* lol!! top | right | bottom | left */
+/* LOOOOOL property name | duration | easing function | delay */
+/** At-Rules **/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@keyframes opacityanim {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+/** Root, Variables **/
+:root {
+    --color_dark_any: #000000;
+    --color_light_bg: #dcdcdc;
+    --color_light_text: #efefef;
+    --color_rdr2-red_any: #cd0210;
+}
+
+/** Global **/
+
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--color_dark_any);
+    color: var(--color_light_text);
+}
+
+/** Header **/
+
+.sticky__nav {
+    position: sticky;
+    top: 0px;
+    height: fit-content;
+    background-color: var(--color_rdr2-red_any);
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 22;
+    padding: 20px 0px 20px;
+    transition: opacityanim 300ms ease-in-out;
+}
+
+.sticky__nav a {
+    color: var(--color_dark_any);
+    text-decoration: none;
+}
+
+/** Footer **/
+
+footer {
+    margin-top: 30px;
+    height: 220px;
+    text-align: center;
+    background-image: url("./../assets/media/index_footer_background-image.png");
+    background-size: cover;
+}
+
+.footer__header {
+    padding-top: 60px;
+}
+
+.footer__text {
+    padding-top: 20px;
+}
+
+.footer__button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 40px 15px;
+    font-size: 20px;
+    color: var(--color_dark_any);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: all 500ms;
+    z-index: 1;
+}
+
+/** Main **/
+
+.main__content {
+    overflow: hidden !important;
+}
+
+.block {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    line-height: 24px;
+    box-sizing: content-box;
+    transition: opacityanim 700ms ease-in-out;
+}
+
+.main__slogan {
+    width: 40%;
+}
+
+.main__imageblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__info {
+    float: right;
+    text-align: justify;
+    width: 50%;
+}
+
+.main__about {
+    display: flex; /* i love when the display does the flex dance */
+    clear: right;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main__image {
+    height: 500px;
+}
+
+.main__imageblock {
+    width: 100%;
+}
+
+.about {
+    width: 37%;
+    text-align: center;
+}
+
+.main__about-screens {
+    transition: opacityanim 500ms ease-in-out;
+    margin-right: 10%;
+}
+
+.main__about-dlc {
+    transition: opacityanim 1500ms ease-in-out;
+    margin-top: 2%;
+}
+
+.main__weapon {
+    text-align: left;
+    margin: 20px 0px 20px;
+    width: 45%;
+}
+
+.main__weapon .main__weapon__name {
+    font-weight: bold;
+}
+
+.main__weapon__text {
+    transition: opacityanim 400ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main__weapon__list {
+    transition: opacityanim 400ms ease-in-out;
+    margin-top: 10px;
+    position: absolute;
+}
