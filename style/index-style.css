@@ -146,6 +146,8 @@ footer {
 }
 
 .main__weapon {
+    display: flex;
+    justify-content: center;
     text-align: left;
     margin: 20px 0px 20px;
     width: 45%;
