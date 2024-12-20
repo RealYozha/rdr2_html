@@ -45,12 +45,15 @@ body {
     font-weight: 600;
     font-size: 22;
     padding: 20px 0px 20px;
-    transition: opacityanim 300ms ease-in-out;
 }
 
 .sticky__nav a {
     color: var(--color_dark_any);
     text-decoration: none;
+}
+
+.sticky__nav a:hover {
+    transition: opacityanim 300ms ease-in-out;
 }
 
 /** Footer **/
