@@ -154,6 +154,9 @@ footer {
 }
 
 .main__weapon .main__weapon__name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-weight: bold;
 }
 
