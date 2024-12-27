@@ -157,9 +157,6 @@ footer {
 }
 
 .main__weapon .main__weapon__name {
-    display: flex;
-    justify-content: center;
-    text-align: center;
     font-weight: bold;
 }
 
@@ -173,4 +170,8 @@ footer {
     transition: opacityanim 400ms ease-in-out;
     margin-top: 10px;
     position: absolute;
+}
+
+.main__weapon__header {
+    margin-bottom: 20px;
 }
