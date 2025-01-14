@@ -149,19 +149,18 @@ footer {
 }
 
 .main__weapon {
-    display: flex;
-    justify-content: center;
     text-align: left;
-    margin: 20px 0px 20px;
-    width: 100%;
+    margin: 20px auto 20px;
+    width: 45%;
 }
 
-.main__weapon .main__weapon__name {
+.main__weapon span {
     font-weight: bold;
 }
 
 .main__weapon__text {
-    text-align: center;
+    display: flex;
+    align-items: center;
     transition: opacityanim 400ms ease-in-out;
     cursor: pointer;
 }
@@ -170,8 +169,4 @@ footer {
     transition: opacityanim 400ms ease-in-out;
     margin-top: 10px;
     position: absolute;
-}
-
-.main__weapon__header {
-    margin-bottom: 20px;
 }
