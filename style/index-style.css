@@ -71,7 +71,7 @@ footer {
 }
 
 .footer__text {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .footer__button {
@@ -90,7 +90,7 @@ footer {
 /** Main **/
 
 .main__content {
-    overflow: hidden !important;
+    overflow: hidden;
 }
 
 .block {
