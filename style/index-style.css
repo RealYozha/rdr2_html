@@ -168,5 +168,5 @@ footer {
 .main__weapon__list {
     transition: opacityanim 400ms ease-in-out;
     margin-top: 10px;
-    position: absolute;
+    position: relative;
 }
